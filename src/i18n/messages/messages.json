@@ -175,6 +175,16 @@
     "filepath": "src/components/main.js"
   },
   {
+    "id": "main.contact-explanation",
+    "defaultMessage": "if you have any further questions, feel free to contact us",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.public-chat",
+    "defaultMessage": "#Status-translate Public chat",
+    "filepath": "src/components/main.js"
+  },
+  {
     "id": "nav.home",
     "defaultMessage": "Home",
     "filepath": "src/components/nav.js"

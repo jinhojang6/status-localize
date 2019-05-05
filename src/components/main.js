@@ -69,23 +69,23 @@ class Main extends Component {
               <h3><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
             </div>
             <div>
-              <div className="margin-bottom-50">
+              <div className="margin-bottom-40">
                   <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a href="https://lokalise.co/" target="_blank"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
                   <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the tranlsation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below." /></p>
               </div>
-              <div className="margin-bottom-50">
+              <div className="margin-bottom-40">
                   <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.fillout" defaultMessage="Fill out whatever form(Status app, Website, or both) you want above and you will be invited to Lokalise as a translator. When you sign in, you can find a screen with your language like this" /></p>
                   <div className="lokalise-img">
                     <img src={require("../images/lokalise1.png")} width="90%" className=""></img>
                   </div>               
               </div>          
-              <div className="margin-bottom-50">
+              <div className="margin-bottom-40">
                 <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.find" defaultMessage="You can find the words and sentences which are used on the Status app and website. Just translate it into your language with the helpers like Google Translate!" /></p>
                 <div className="lokalise-img">
                   <img src={require("../images/lokalise2.png")} width="90%" className=""></img>
                 </div>
               </div>
-              <div className="margin-bottom-50">
+              <div className="margin-bottom-40">
                 <p><FormattedMessage id="main.finished" defaultMessage="That's all! Your contribution helps more people use this secure, censorship-resistant communication platform." /></p>
               </div>
             </div>
@@ -100,11 +100,14 @@ class Main extends Component {
 
         <section id="contact-us">
           <h2><FormattedMessage id="main.contact" defaultMessage="Contact Us" /></h2>
-          <Form />
-
-        </section>
-
-        
+          
+          {/* <Form /> */}
+          <div className="align-center">
+            <p><FormattedMessage id="main.contact-explanation" defaultMessage="if you have any further questions, feel free to contact us" /></p>
+            <p><a href="mailto:translate@status.im">translate@status.im</a></p>
+            <p><a href="https://get.status.im/chat/public/status-translate"><FormattedMessage id="main.public-chat" defaultMessage="#Status-translate Public chat" /></a></p>
+          </div>
+        </section>      
        
       </main>
     );
