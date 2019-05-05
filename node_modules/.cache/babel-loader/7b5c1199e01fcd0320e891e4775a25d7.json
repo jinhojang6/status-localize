@@ -1,0 +1,1 @@
+{"ast":null,"code":"/* jslint esnext: true */\n\"use strict\";\n\nvar src$core$$ = require(\"./core\"),\n    src$en$$ = require(\"./en\");\n\nsrc$core$$[\"default\"].__addLocaleData(src$en$$[\"default\"]);\n\nsrc$core$$[\"default\"].defaultLocale = 'en';\nexports[\"default\"] = src$core$$[\"default\"];","map":null,"metadata":{},"sourceType":"script"}

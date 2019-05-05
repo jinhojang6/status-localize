@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/status-localize/static/css/main.1ad9aea3.chunk.css",
+    "main.js": "/status-localize/static/js/main.5516c057.chunk.js",
+    "main.js.map": "/status-localize/static/js/main.5516c057.chunk.js.map",
+    "runtime~main.js": "/status-localize/static/js/runtime~main.d8cb264c.js",
+    "runtime~main.js.map": "/status-localize/static/js/runtime~main.d8cb264c.js.map",
+    "static/js/2.3d7feafb.chunk.js": "/status-localize/static/js/2.3d7feafb.chunk.js",
+    "static/js/2.3d7feafb.chunk.js.map": "/status-localize/static/js/2.3d7feafb.chunk.js.map",
+    "index.html": "/status-localize/index.html",
+    "precache-manifest.0a246fd7acb74c30fbb39e366bd6181e.js": "/status-localize/precache-manifest.0a246fd7acb74c30fbb39e366bd6181e.js",
+    "service-worker.js": "/status-localize/service-worker.js",
+    "static/css/main.1ad9aea3.chunk.css.map": "/status-localize/static/css/main.1ad9aea3.chunk.css.map",
+    "static/media/korea.png": "/status-localize/static/media/korea.c5c7b09c.png",
+    "static/media/latin_america.png": "/status-localize/static/media/latin_america.6345ed4c.png",
+    "static/media/logo.png": "/status-localize/static/media/logo.b8735962.png",
+    "static/media/lokalise1.png": "/status-localize/static/media/lokalise1.e514f035.png",
+    "static/media/lokalise2.png": "/status-localize/static/media/lokalise2.add0ce86.png",
+    "static/media/russia.svg": "/status-localize/static/media/russia.769f2aee.svg",
+    "static/media/spain.png": "/status-localize/static/media/spain.2983be30.png",
+    "static/media/index.css": "/status-localize/static/media/world-map.92175f68.png"
+  }
+}
