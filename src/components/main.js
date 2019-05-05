@@ -16,9 +16,9 @@ class Main extends Component {
                 <div className="language-one">
                   <img src={require("../images/flags/korea.png")} className="flag" />
               <p className="language-title"><FormattedMessage id="main.korean" defaultMessage="Korean" /></p>
-              <a href="https://forms.gle/iExu595uLzHy4QsB9" target="_blank"><p><FormattedMessage id="main.status-app" defaultMessage="Status App" /><strong> (99%)</strong></p></a>
+              <a href="https://forms.gle/iExu595uLzHy4QsB9" target="_blank"><p><FormattedMessage id="main.status-app" defaultMessage="Status App" /><span className="percent"> (99%)</span></p></a>
                   <p></p>
-              <a href="https://forms.gle/kHAXeZPAaE6hwniU7" target="_blank"><p><FormattedMessage id="main.website" defaultMessage="Website" /><strong> (0%)</strong></p></a>
+              <a href="https://forms.gle/kHAXeZPAaE6hwniU7" target="_blank"><p><FormattedMessage id="main.website" defaultMessage="Website" /><span className="percent"> (0%)</span></p></a>
                 </div>
 
                 <div className="language-two">
