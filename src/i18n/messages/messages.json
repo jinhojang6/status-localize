@@ -26,12 +26,12 @@
   },
   {
     "id": "header.main-1",
-    "defaultMessage": "Private, Secure Communication",
+    "defaultMessage": "Translate Status",
     "filepath": "src/components/header.js"
   },
   {
     "id": "header.main-2",
-    "defaultMessage": "for Everyone",
+    "defaultMessage": "into Your Language",
     "filepath": "src/components/header.js"
   },
   {
@@ -60,28 +60,13 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.status-app",
-    "defaultMessage": "Status App",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.website",
-    "defaultMessage": "Website",
+    "id": "main.application",
+    "defaultMessage": "Application",
     "filepath": "src/components/main.js"
   },
   {
     "id": "main.chinese",
     "defaultMessage": "Chinese",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.status-app-tba",
-    "defaultMessage": "Status App (TBA)",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.website-tba",
-    "defaultMessage": "Website (TBA)",
     "filepath": "src/components/main.js"
   },
   {
@@ -96,7 +81,7 @@
   },
   {
     "id": "main.spanish-latin",
-    "defaultMessage": "Spanish (Lantin America)",
+    "defaultMessage": "Spanish (Latin America)",
     "filepath": "src/components/main.js"
   },
   {
@@ -126,7 +111,7 @@
   },
   {
     "id": "main.after-lokalise",
-    "defaultMessage": "Lokalise automates all the tranlsation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below.",
+    "defaultMessage": "Lokalise automates all the translation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below.",
     "filepath": "src/components/main.js"
   },
   {

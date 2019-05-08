@@ -15,24 +15,20 @@ class Main extends Component {
              <div className="languages">
                 <div className="language-one">
                   <img src={require("../images/flags/korea.png")} className="flag" />
-              <p className="language-title"><FormattedMessage id="main.korean" defaultMessage="Korean" /></p>
-              <a href="https://forms.gle/iExu595uLzHy4QsB9" target="_blank"><p><FormattedMessage id="main.status-app" defaultMessage="Status App" /><span className="percent"> (99%)</span></p></a>
-                  <p></p>
-              <a href="https://forms.gle/kHAXeZPAaE6hwniU7" target="_blank"><p><FormattedMessage id="main.website" defaultMessage="Website" /><span className="percent"> (0%)</span></p></a>
+                  <p className="language-title"><FormattedMessage id="main.korean" defaultMessage="Korean" /></p>
+                  <a href="https://forms.gle/EzAQ12B3vciiCiHF7" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>
                 </div>
 
                 <div className="language-two">
                   <img src={require("../images/flags/china.png")} className="flag" />
                   <p className="language-title"><FormattedMessage id="main.chinese" defaultMessage="Chinese" /></p>
-                  <p><FormattedMessage id="main.status-app-tba" defaultMessage="Status App (TBA)" /></p>
-                  <p><FormattedMessage id="main.website-tba" defaultMessage="Website (TBA)" /></p>         
+                  <a href="https://forms.gle/zkcYVmgHDV2cogD19" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>    
                 </div>
 
                 <div className="language-three">
                   <img src={require("../images/flags/russia.svg")} className="flag" />
                   <p className="language-title"><FormattedMessage id="main.russian" defaultMessage="Russian" /></p>
-                  <p><FormattedMessage id="main.status-app-tba" defaultMessage="Status App (TBA)" /></p>
-                  <p><FormattedMessage id="main.website-tba" defaultMessage="Website (TBA)" /></p>   
+                  <a href="https://forms.gle/zkcYVmgHDV2cogD19" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>
                 </div>
 
             </div>
@@ -42,22 +38,19 @@ class Main extends Component {
               <div className="language-one">
                 <img src={require("../images/flags/spain.png")} className="flag" />
                 <p className="language-title"><FormattedMessage id="main.spanish" defaultMessage="Spanish" /></p>
-                <p><FormattedMessage id="main.status-app-tba" defaultMessage="Status App (TBA)" /></p>
-                <p><FormattedMessage id="main.website-tba" defaultMessage="Website (TBA)" /></p>   
+                <a href="https://forms.gle/zkcYVmgHDV2cogD19" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>
               </div>
 
               <div className="language-two">
                 <img src={require("../images/flags/latin_america.png")} className="flag" />
-                <p className="language-title"><FormattedMessage id="main.spanish-latin" defaultMessage="Spanish (Lantin America)" /></p>
-                <p><FormattedMessage id="main.status-app-tba" defaultMessage="Status App (TBA)" /></p>
-                <p><FormattedMessage id="main.website-tba" defaultMessage="Website (TBA)" /></p>   
+                <p className="language-title"><FormattedMessage id="main.spanish-latin" defaultMessage="Spanish (Latin America)" /></p>
+                <a href="https://forms.gle/zkcYVmgHDV2cogD19" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>
               </div>
 
               <div className="language-three">
                 <img src={require("../images/flags/portugal.png")} className="flag" />
-            <p className="language-title"><FormattedMessage id="main.portuguese" defaultMessage="Portuguese" /></p>
-                <p><FormattedMessage id="main.status-app-tba" defaultMessage="Status App (TBA)" /></p>
-                <p><FormattedMessage id="main.website-tba" defaultMessage="Website (TBA)" /></p>     
+                <p className="language-title"><FormattedMessage id="main.portuguese" defaultMessage="Portuguese" /></p>
+                <a href="https://forms.gle/zkcYVmgHDV2cogD19" target="_blank"><p><FormattedMessage id="main.application" defaultMessage="Apply" /></p></a>     
               </div>
 
             </div>
@@ -71,22 +64,23 @@ class Main extends Component {
             <div>
               <div className="margin-bottom-40">
                   <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a href="https://lokalise.co/" target="_blank"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
-                  <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the tranlsation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below." /></p>
+                  <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 2 steps to start the translation as below." /></p>
               </div>
               <div className="margin-bottom-40">
-                  <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.fillout" defaultMessage="Fill out whatever form(Status app, Website, or both) you want above and you will be invited to Lokalise as a translator. When you sign in, you can find a screen with your language like this" /></p>
+                <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.fillout" defaultMessage="Please click on the 'apply' button above and fill out the application form which takes less than 1 minute. As soon as we check out your application, you will be invited to Lokalise as a translator." /></p>
                   <div className="lokalise-img">
-                    <img src={require("../images/lokalise1.png")} width="90%" className=""></img>
+                    <img src={require("../images/lokalise1.png")} width="70%" className=""></img><br /><br /><br />
+                    <img src={require("../images/lokalise2.png")} width="70%" className=""></img>                    
                   </div>               
               </div>          
               <div className="margin-bottom-40">
-                <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.find" defaultMessage="You can find the words and sentences which are used on the Status app and website. Just translate it into your language with the helpers like Google Translate!" /></p>
+                <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.find" defaultMessage="Sign up for Lokalise and you will find the words and sentences which are used on the Status app and website. Lokalise offers useful online translators(e.g. Google Translate, Microsoft Translator, and Yandex.Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated." /></p>
                 <div className="lokalise-img">
-                  <img src={require("../images/lokalise2.png")} width="90%" className=""></img>
+                  <img src={require("../images/lokalise3.png")} width="70%" className=""></img>
                 </div>
               </div>
               <div className="margin-bottom-40">
-                <p><FormattedMessage id="main.finished" defaultMessage="That's all! Your contribution helps more people use this secure, censorship-resistant communication platform." /></p>
+                <p><FormattedMessage id="main.finished" defaultMessage="That's all! Your passion for the private, secure and censorship-resistant communications will help build a better world that everyone can say what they want to say with Status. " /></p>
               </div>
             </div>
           </div>
