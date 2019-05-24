@@ -2,6 +2,8 @@
 
 Website about community organized localization of Status.im App.
 
+URL : https://translate.status.im/
+
 ## Deployment
 
 ```bash
