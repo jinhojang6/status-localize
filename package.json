@@ -1,8 +1,8 @@
 {
-  "name": "status-localize",
+  "name": "translate.status.im",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jinhojang6.github.io/status-localize",
+  "homepage": "https://translate.status.im",
   "dependencies": {
     "@lokalise/node-api": "0.0.8",
     "express": "^4.16.4",
@@ -19,8 +19,10 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "clean": "rm -fr build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "deploy:ci": "node bin/gh-pages.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
